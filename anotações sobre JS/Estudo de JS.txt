@@ -1,0 +1,93 @@
+O que o JavaScript faz ?
+
+* para codar em JS dentro do html colocamos a tag script 
+
+window.alert("lorem") faz aparecer um alerta na parte de cima da tela
+posso colocar apenas alert
+window.confirm("lorem") faz aparece algo com ok ou cancela
+window.prompt("lorem") faz aparecer uma caixa de dialogo o qual voce pode escrever algo
+
+
+* comentarios em js
+
+comentarios para linha simples //
+comentarios para multiplas linhas
+
+* tipos primitivos de variaveis em JS
+um unico sinal de igual(=) em js se chama recebe. ex: vaga a1 = carro1
+posso usar null para deixar uma variavel vazia
+
+para criar uma variavel em js use var
+
+number: no JS qualquer tipo de numero seja inteiro ou real se utiliza da variavel number
+
+string: variaveis como nomes,rg,cpf
+
+boolean: true or false
+
+null: vazio
+
+undefined: indefinido
+
+object
+
+function
+
+- Use typeof para saber o tipo da variavél
+
+para puxar uma variavél em JS colocamos (+ nome da variavél)
+ex:  window.alert("É um grande prazer em te conhecer," + nome)
+
+no Js o sinal de soma(+) funciona para adição e concatenação(junção de uma variavél)
+
+para string- concatenação
+para number- soma
+
+logo quando utilizamos uma variavél como no exemplo abaixo, precisamo colocar number antes para que o Js indentifique que é um numero
+ex: var n1 = Number(window.prompt("Digite um numero"))
+
+tambem posso fazer a conversão de number para string desse jeito 
+ window.alert("O resultado da soma é " + string(r))
+
+há diferenças entre crases (`lorem `) aspas simples('') e aspas duplas("")
+
+use crase`` quando quiser fazer uma concatenação de muitas variaveis como no exemplo abaixo, tambem não esqueça de usar cifrão$ com chaves{}
+window.alert(`O resultado da soma entre ${n1} e ${n2} é ${r}`)
+
+usando o script document.write ou document.writenln conseguimos escrever dentro do arquivo html. ex abaixo
+document.write(`Olá, ${nome}. Seu nome tem, ${nome.length} letras`)
+
+formatanto numeros
+
+use o comando tofixed(2) para mostrar apenas duas casas decimais depois da virgula ou ponto
+
+varivelqualquer.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})
+se quiser para dolar ou qualquer outra moeda é so mudar o BRL no final
+
+* operadores aritimenticos em JS
++ soma
+- subtração
+* multiplicação
+/ divisão
+% modulo= resto da divisão
+** pontencia
+ordem de precedencia
+()
+**
+* / %
++ -
+
+podemos fazer uma variavel receber ela mesmo ex
+var n = 8
+num += 2 
+num agora passa a ser igual a 10
+isso tambem pode ser feito com os outros operadores aritimeticos
+
+operadores de incremento
+ex
+var x = 10
+x++ agora x vale 11
+o mesmo serve para x--
+se eu colocar 
+++x ou --x ele soma ou diminui antes
+
