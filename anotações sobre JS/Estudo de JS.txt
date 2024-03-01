@@ -91,3 +91,63 @@ o mesmo serve para x--
 se eu colocar 
 ++x ou --x ele soma ou diminui antes
 
+Operadores relacionais
+> maior que
+< menor que
+>= maior ou igual que
+<= menor ou igual que
+== igual que
+!= diferente de
+
+operadores relacionais de identidade
+
+== igual a, idependente do tipo. ex
+5 == '5' true
+
+=== identico, valor e tipo
+5 === '5' false
+5 === 5 true
+
+operadores lógicos
+
+! negação= não
+&& conjunção= e
+|| disjunção= ou
+
+ordem de precedencia dos operadores
+1º operadores aritimeticos:  + - * /
+2º operadores relacionais < > == !=
+3º operadores lógicos ! && ||
+
+operador ternário
+? true : false
+ex
+média <=7.0 ? aprovador : reprovado
+
+Aprendendo a usar DOM em JS
+
+DOM= Document Object Model
+Ele roda dentro do navegador e não em JS
+
+Arvore Dom( dentro deles tem três objetos)
+location: minha url
+document: (documento atual) html -> head(meta, title) e body(h1, p, div etc..)
+history: basicamento o historico
+
+selecionando
+
+por marca
+getElementsByTagName()
+por ID
+getElementsByID()
+por Name
+getElementsByName
+por classe
+
+por seletor(melhor forma de usar) se for por id use # se for por class use .
+ex
+var d = document.querySelector('div#msg')
+d.style.background = 'blue'
+
+
+
