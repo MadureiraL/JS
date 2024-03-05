@@ -149,5 +149,31 @@ ex
 var d = document.querySelector('div#msg')
 d.style.background = 'blue'
 
+* eventos DOM
+É tudo aquilo que pode acontecer com uma div
 
+* eventos que podem acontecer por meio de uma interação entre o mouse e uma div
+- mouseenter: quando a setinha do mouse entra dentro da div
+- mousemove: quando estamos mexendo com a setinha dentro da div
+- mousedown: quando clicamos e seguramos o botão
+- mouseup: quando soltamos o clique que estavamos segurando
+- click: quando clicamos com o mouse em uma div
+- mouseout: quando a setinha sai da div
 
+* função
+- um conjunto de linhas de codigo que vão ser executadas só quando o evento ocorrer
+bloco em js: {}
+temos sempre que dar o nome a uma função que é geralmente o nome de uma ação
+ex: function clicar(){}
+
+* Estrutura condicional em JS
+
+if(){true
+}else{false
+}
+sempre que usar if use tambem += para a concatenação
+ex dentro de um site
+ if(vel >= 60){
+res.innerHTML += `Você está multado o por excesso de velocidade`
+        } 
+res.innerHTML += (`<p>Dirija sempre com cuidado</p>`)
