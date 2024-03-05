@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Somando numeros</h1>
+
+    <input type="button" value="Clique aqui para Somar" onclick="clicar()" id="botao">
+
+    <div id="res">
+        Resultado:
+    </div>       
+    <script>
+     var but = document.getElementById('butao')
+     but.addEventListener('click', clicar)
+    function clicar(){
+     var n2
+     var result       
+     but = Number (window.prompt('Digite o primeiro numero'))
+     n2 = Number (window.prompt('Digite o segundo numero'))
+     
+     result = but + n2
+
+    res.innerText = (`A soma entre ${but} e ${n2} é: ${result}`)    
+        
+    }    
+
+
+    </script>
+</body>
+</html>

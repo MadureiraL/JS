@@ -6,6 +6,18 @@
     <title>Tcd</title>
 </head>
 <body>
+    <h1>Trabalhando com dados</h1>
     
+    <input type="button" value="Clique para começar" onclick="clicar()" id="cem">
+    <script>
+
+     var a = document.getElementById('cem')
+     a.addEventListener('click', clicar)
+     
+     function clicar(){
+     a = window.prompt("Qual é seu nome ?")
+     window.alert(`Bem Vindo, ${a}`)   
+     }
+    </script>
 </body>
 </html>
