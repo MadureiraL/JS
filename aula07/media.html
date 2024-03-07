@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media do Aluno</title>
+</head>
+<body>
+    <h1>Calculando a Média</h1>
+    <input type="button" value="Calcular Média" id="media" onclick="clicar()">
+    <div id="res"></div>
+    <script>
+        function clicar(){
+        var med = document.querySelector('media')
+        var result
+        var name = window.prompt('Qual nome do aluno?')
+        var n1 = Number( window.prompt('Qual a primeira nota?'))
+        var n2 = Number (window.prompt ('Qual a segunda nota ?'))
+        var result = (n1 + n2) / 2 
+        if(`${result}` >= 6){
+            res.innerText = (`Meus parabens,${name}! Você passou com a média ${result}`)
+        }else{
+            res.innerText = (`Sinto muito ${name}, você reprovou com a média ${result}`)
+        }
+        
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -177,3 +177,19 @@ ex dentro de um site
 res.innerHTML += `Você está multado o por excesso de velocidade`
         } 
 res.innerHTML += (`<p>Dirija sempre com cuidado</p>`)
+
+* condição aninhada
+
+eu posso colocar um if dentro do outro
+
+if(){
+ bloco1
+}else{
+ if(){
+ bloco2
+}else{
+ bloco3	
+ }
+}
+
+
