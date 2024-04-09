@@ -1,0 +1,33 @@
+@charset "UFT-8";
+
+:root{
+    --cor0: #010409;
+    --cor01: #0D1117;
+    --cor02: #161B22;
+    --cor03: #ffffff;
+}
+
+*{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    background-color: var(--cor0);
+}
+header{
+    color: var(--cor03);
+    text-align: center;
+}
+section{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);    
+}
+footer{
+    color: var(--cor03);
+    text-align: center;
+    font-style: italic;
+}
