@@ -193,3 +193,5 @@ if(){
 }
 
 
+Como utilizar-se de fotos em JS
+
