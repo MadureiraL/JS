@@ -194,4 +194,12 @@ if(){
 
 
 Como utilizar-se de fotos em JS
+criamos uma variavél chamada img e ela recebe: document.createElement('img') como no exemplo abaixo
+var img = document.createElement('img')
+img.setAttribute('id', 'foto') aqui eu criei um id para essa variavél chamada foto
 
+ai dentro do if colocamos
+img.setAttribute('src', 'nomedafoto.png ou jpg')
+
+e para aparecer colocamos
+res.appendChild(img)
